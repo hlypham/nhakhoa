@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	color:#666666;font-size: 16px;margin:0;background-color: #F5F5F5
+}
+.top-bar{
+	width:100%; height: 50px; line-height: 50px; background-color: #056cb6; color:#FFFFFF;
+}
+.top-bar a{
+	color:#fff
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius:8px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056cb6; color:#ffc113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color:#056cb6;padding-bottom: 0;padding-top:0;width:220px
+}
+.navbar .navbar-nav .nav-item .dropdown-item{
+	color:#fff
+}
+.navbar .navbar-nav .nav-item .dropdown-item:hover{
+	background-color:#ffc113; padding-left:25px; transition: all 0.7s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px dotted #fff
+}
+main{
+	width:100%; min-height: 800px
+}
+footer{
+	width:100%; min-height: 300px;color: #fff
+}
+.gach-chan{
+	border-bottom: 2px solid #ffc113; padding-top: 10px;
+}
+.iconft{
+	font-size: 18px;
+}
+.iconft i{
+	margin: 2px;
+	cursor: pointer
+}
+
+footer .navbar-nav .nav-item .nav-link:hover{
+	color:#ffc133
+}
+
+.bottom-bar{
+	width:100%; height: 50px; line-height: 50px; color: #FFFFFF
+}
+#service a{
+	color: #2C2C2C; text-decoration: none
+}
+#service a:hover{
+	color: #ffc133;
+}
+#why{
+	width: 100%; min-height: 350px;background: url( "../images/why.jpg");background-repeat: no-repeat;background-position: top center;background-size: cover
+}
+#client .hinh{
+	width: 100%; position: relative
+}
+#client .truoc{
+	position:absolute; left:0; top:0; padding: 5px;background-color: rgba(223,223,223,0.70)
+}
+#client .sau{
+	position:absolute; left:50%; top:0; padding: 5px;background-color: rgba(223,223,223,0.70)
+}
+#cam-nhan .noi-dung img{
+	width:90px; height:90px
+}
+#cam-nhan .noi-dung{
+	display: flex; flex-direction: column;justify-content: center;align-items: center
+}
+#cam-nhan .vien-vang{
+	border: 2px solid #ffc133; padding: 3px
+}
+
+
+
+#tin-tuc a{
+	color: #2C2C2C; text-decoration: none
+}
+#tin-tuc a:hover{
+	color: #ffc133;
+}
+
+
+
+
+#ndtintucsukien a{
+	color: #2C2C2C; text-decoration: none
+}
+#ndtintucsukien a:hover{
+	color: #ffc133;
+}
+
+
+#ndtintucsukien .ndtintuc2 a{
+	color: #BC0003; text-decoration: none
+}
+#ndtintucsukien .ndtintuc2 i:hover{
+	color: #ffc133;
+}
+
+
+.box{
+	background-color: #F8FAF5; padding: 25px;
+}
+.box h3{
+	padding-bottom: 20px;
+}
+.ndtintuccuoitrang{
+	background-color: #F1F7EF;
+	padding: 20px
+}
+.ndtintuccuoitrang p{
+	margin: 20px
+}
+.page:hover{
+	background-color: #056cb6
+}
+
+
+form.thanhtimkiem{
+	width: 100%;
+	height: 40px
+}
+form.thanhtimkiem input[type=text] {
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+/* Style the submit button */
+form.thanhtimkiem button {
+  float: left;
+  width: 20%;
+  background: #056cb6;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.thanhtimkiem button:hover {
+  background: #0b5ed7;
+}
+
+form.thanhtimkiem:after {
+  content: "";
+  clear: both;
+	display: table;}
+
+
+#cn .owl-nav { position:absolute; left:0px; top:25%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #a0a0a0
+}
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#056cb6;
+      text-decoration: none; 
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+@media (max-width:600px){
+	footer{
+		text-align:center; 
+}}
+
+
+
+
+
+
+#banner1{
+	width: 100%;
+	min-height: 353px;
+	background: url("../images/pageheader.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative
+}
+.noidunggiua2{
+	padding: 100px 0px
+}
+#lienhe .navbar-nav .nav-link i{
+	color:#ffc133
+}
+#map iframe{
+	width: 100%;
+	min-height: 415px;
+	margin: 100px 0px
+}
+
+#bacsi img{
+	width: 60%;
+}
+.noidungbs{
+	text-align: center;
+}
+.noidungbs img{
+	margin: 20px;
+	border: 3px solid #F2C94C;
+	padding: 4px
+}
+
+
